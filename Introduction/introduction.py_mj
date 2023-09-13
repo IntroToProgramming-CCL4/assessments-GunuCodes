@@ -1,0 +1,7 @@
+print ('matthew jared')
+
+print ('''
+This is my mediocre code.
+I am trying very hard.
+I think I'm ready for a job now. :)))))
+''')
