@@ -1,0 +1,6 @@
+#This code will use a variable to reseprent your favorite number, and will use this variable in the printed message.
+
+favorite_number = 58
+message = "My favorite number is " + str(favorite_number) + "."
+
+print(message)

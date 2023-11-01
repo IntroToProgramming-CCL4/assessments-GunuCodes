@@ -1,0 +1,7 @@
+#This will assign a message to a variable, and then will print the message.
+message = "This is the first time I'm saying this sentence."
+print(message)
+
+#This will change the first variable with the new message, and will print the new different messsage.
+message = "This is the firs- deja vu."
+print(message)

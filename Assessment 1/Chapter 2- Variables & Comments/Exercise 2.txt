@@ -1,0 +1,4 @@
+#This will print, in multiple lines, a short excerpt of Martin Luther King Jr's famous speech in his fight against racism.
+print('Martin Luther King Jr. once said,')
+print('"I have a dream that one day this nation will rise up and live out the true meaning of its creed:')
+print('We hold these truths to be self-evident: that all men are created equal."')

@@ -1,0 +1,12 @@
+#This code adds whitespace characters in the printed message for better visual clarity.
+
+name = "\tMatthew Jared\n"
+
+print("With lstrip():")
+print(name.lstrip())
+
+print("With rstrip():")
+print(name.rstrip())
+
+print("With strip:")
+print(name.strip())
