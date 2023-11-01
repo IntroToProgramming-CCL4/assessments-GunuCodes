@@ -1,0 +1,6 @@
+#This will print out three different variables into one string.
+
+Variable1 = "Eggs"
+Variable2 = "Flour"
+Variable3 = "Sugar"
+print("Common ingredients of a cake include: ", Variable1, Variable2, Variable3)

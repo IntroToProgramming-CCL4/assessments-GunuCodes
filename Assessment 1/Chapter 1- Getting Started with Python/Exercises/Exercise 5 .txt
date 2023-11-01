@@ -1,0 +1,6 @@
+#This will ask the user to input the radius of a circle, and it will compute for it's area.
+
+PI = 3.14
+r = float(input(' Please Enter the radius of a circle: '))
+area = PI * r * r
+print(" Area Of a Circle: ", area)
