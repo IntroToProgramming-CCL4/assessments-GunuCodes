@@ -1,0 +1,9 @@
+#This string will information about me in a dictionary. 
+#Don't dox me please.
+person = {'first_name': 'matthew', 'last_name': 'ogoc', 'age': 18, 'city': 'sharjah',}
+
+#We will then extract all these information from the dictionary using brackets ([]) and print them.
+print(person['first_name'])
+print(person['last_name'])
+print(person['age'])
+print(person['city'])

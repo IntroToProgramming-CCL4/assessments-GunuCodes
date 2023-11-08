@@ -1,0 +1,19 @@
+#Let us make a Python Dictionary using a Python Dictionary. Here are 5 terms that was taught before.
+#The terms will be the keys, and the descriptions as values.
+glossary = {'String': 'A list of characters in order.', 'Comment': 'A note in a program that Python ignores.', 'List': 'Multiple items stored in a variable.', 'Loop': 'Code statements meant to be executed multiple times.','Dictionary': "A collection of key-value pairs."}
+
+#Here are the printed messages.
+word = 'String'
+print("\n" + word + ": " + glossary[word])
+
+word = 'Comment'
+print("\n" + word + ": " + glossary[word])
+
+word = 'List'
+print("\n" + word + ": " + glossary[word])
+
+word = 'Loop'
+print("\n" + word + ": " + glossary[word])
+
+word = 'Dictionary'
+print("\n" + word + ": " + glossary[word])
