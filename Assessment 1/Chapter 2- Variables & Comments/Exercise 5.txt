@@ -1,0 +1,12 @@
+# This will define the price of each USB stick as well as the girl's budget.
+usbsticks = 6
+budget = 50
+
+# This will calculate how many USB sticks that she can buy.
+usbsticks = budget // usbsticks
+
+# This will calculate how many pounds that she will have left.
+remainingbudget = budget % usbsticks
+
+print("She can buy", usbsticks, "USB sticks.")
+print("She will have", remainingbudget, "pounds left.")
