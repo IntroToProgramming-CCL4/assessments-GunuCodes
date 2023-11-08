@@ -1,0 +1,11 @@
+#This variable will store each individual names as a list. 
+#To create a list, seperate each item by commas (,) and then enclose them with brackets [].
+
+names = ['Sean', 'Aaron', 'Archille']
+
+#Then, we will use brackets ([]) to extract the specific item that was stored in the list earlier. 
+#The first item's value is stored as 0, then 1, then so on and so forth. 
+
+print(names[0])
+print(names[1])
+print(names[2])

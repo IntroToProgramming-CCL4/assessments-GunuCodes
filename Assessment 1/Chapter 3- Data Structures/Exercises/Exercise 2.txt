@@ -1,0 +1,15 @@
+#Store the names in a list.
+names = ['Sean', 'Aaron', 'Archille']
+
+#Then, to print our unique message along with the person's name, we first enclose the text message with apostrophes (").
+#We will then use a (+) operator to separate the list and extract the item from the list for printing.
+#Finally, we add the last part of the unique message at the end of the string.
+
+message = "Stay alive, " + names[0] + "."
+print(message)
+
+message = "Stay alive, " + names[1] + "."
+print(message)
+
+message = "Stay alive, " + names[2] + "."
+print(message)

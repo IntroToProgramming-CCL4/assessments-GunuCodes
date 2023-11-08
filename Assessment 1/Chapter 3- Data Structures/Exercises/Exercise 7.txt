@@ -1,0 +1,46 @@
+#Store the places that you would like to visit in this list. 
+places = ['Singapore', 'South Korea', 'Italy', 'Greece', 'Netherlands']
+
+#This will print the list as a message.
+print("Original order:")
+print(places)
+
+#By using the sorted command, the next message will be alphabetically ordered. 
+#This will not modify the actual list.
+print("\nAlphabetical order:")
+print(sorted(places))
+
+#Don't believe me?
+print("\nOriginal order:")
+print(places)
+
+#To print the list in reverse alphabetical order, we can just add a reverse=true 
+#command inside the parenthesis.
+print("\nReverse alphabetical order:")
+print(sorted(places, reverse=True))
+
+#We can print the list again in the original order to check if the list has been modified or not.
+print("\nOriginal order:")
+print(places)
+
+#We can reverse the order of the original list by using the reverse() command. 
+print("\nReversed order:")
+places.reverse()
+print(places)
+
+#To print the original order again, we just need to simply use the reverse() 
+#command again to "reverse" the changes we did last time.
+print("\nOriginal order:")
+places.reverse()
+print(places)
+
+#We can use the sort() command to modify the list and store it in alphabetical order. 
+#Let's print it again to show how the message has been affected.
+print("\nAlphabetical order:")
+places.sort()
+print(places)
+
+#Using the sort() command twice will instead modify the list again and store it in in reverse aplhabetical order.
+print("\nReverse alphabetical order:")
+places.sort(reverse=True)
+print(places)

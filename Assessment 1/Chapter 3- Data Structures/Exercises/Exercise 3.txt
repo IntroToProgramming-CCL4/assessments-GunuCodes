@@ -1,0 +1,16 @@
+#Store the vehicles in a list.
+vehicles = ['car', 'yacht', 'public transportation']
+
+#Then, to print our statement along with the type of vehicle, we first enclose the text message with apostrophes (").
+#We will then use a (+) operator to separate the list and extract the item from the list for printing.
+#Finally, we add the last part of the statement at the end of the string.
+#I totally did not just copy and paste this comment from the last assignment.
+
+message = "One day, I would like to afford my own "+ vehicles[0] +"..."
+print(message)
+
+message = "And then rent a " + vehicles[1] + " every once in a while!"
+print(message)
+
+message = "However, cheap and sustainable " + vehicles[2] + " is what is ideal for everyone's future."
+print(message)

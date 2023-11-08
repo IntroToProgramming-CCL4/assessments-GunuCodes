@@ -1,0 +1,11 @@
+#Store the guests of today's dinner in a list.
+guests = ['Jeremy Elbertson', 'Gustavo Fring', 'Freddy Fazbear']
+
+name = guests[0]
+print(name + ", you are invited to today's dinner.")
+
+name = guests[1]
+print(name + ", you are invited to today's dinner.")
+
+name = guests[2]
+print(name + ", you are invited to today's dinner.")

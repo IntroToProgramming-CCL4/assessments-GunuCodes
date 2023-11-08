@@ -1,0 +1,58 @@
+#Store the guests of today's dinner in a list.
+guests = ['Jeremy Elbertson', 'Gustavo Fring', 'Freddy Fazbear']
+
+name = guests[0]
+print(name + ", you are invited to today's dinner.")
+
+name = guests[1]
+print(name + ", you are invited to today's dinner.")
+
+name = guests[2]
+print(name + ", you are invited to today's dinner.")
+
+#Apparently, Freddy Fazbear is currently unable to attend to today's dinner.
+#Let's send a message to the other members that Freddy is unable to join us today.
+#We can use the "\n" command to add an empty space between lines for better visual clarity.
+
+name = guests[2]
+print("\nSorry, " + name + " can't make it today. (He ate one of the guar-)")
+
+#Big A is available for dinner! Let us remove Freddy Fazbear from the list and 
+#replace him with Big A instead.
+#We can remove Freddy with the remove() command, and replace him with Big A using
+#the insert() command.
+
+guests.remove('Freddy Fazbear')
+guests.insert(2, 'Big A')
+
+#Print the updated messages again.
+name = guests[0]
+print("\n" + name + ", you are invited to today's dinner.")
+
+name = guests[1]
+print(name + ", you are invited to today's dinner.")
+
+name = guests[2]
+print(name + ", you are invited to today's dinner.")
+
+#Oh no, the table won't arrive on time for dinner! 
+#Looks like I'll only be able to invite 2 people instead of 3. More food for me. :)
+#We can use the pop() command to remove an item from our list. 
+
+name = guests.pop()
+print("\nSorry " + name + ", there's no more room left at the dinner table.")
+
+#Print the updated messages again.
+name = guests[0]
+print("\n" + name + ", you are invited to today's dinner.")
+
+name = guests[1]
+print(name + ", you are invited to today's dinner.")
+
+#We can then use the del commands to empty out the list.
+del(guests[0])
+del(guests[0])
+
+#Print the list again. There is no more list. It is gone. 
+#Will you be able to live with what you've done?
+print(guests)
