@@ -1,0 +1,20 @@
+#Let us write an if-elif-else chain that determines a person's stage of their life. 
+#Let us have the user input their age.
+ 
+age = int(input("Please enter your age: "))
+
+#Using the (<) operator can allow our code to evaluate whether or not the inputed age is
+#less than our set conditions. 
+ 
+if age < 2:
+    print("You're a baby! How'd you even input your age?")
+elif age < 4:
+    print("You're a toddler! You are now a conscious human being. Welcome to Earth, little one.")
+elif age < 13:
+    print("You're a kid! Follow your parents' guidance, and stay in school!")
+elif age < 20:
+    print("You're a teenager! You're just like me, for real for real.")
+elif age < 65:
+    print("You're an adult! I know, it's tough bud. ")
+else:
+    print("You're an elder! Welcome to your golden years!")

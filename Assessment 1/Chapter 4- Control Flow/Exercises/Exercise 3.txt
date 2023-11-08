@@ -1,0 +1,39 @@
+#Add the variable 'alien_color', and assign the value 'green' to it.
+alien_color = 'green'
+
+#We can use an if-else chain to check if the variable's assigned value is still 'green'.
+#Using the == operator checks to see if the 'if statement' is true.
+#If the statement is true, the player earns 5 points.
+#Else, the player earns 10 points.
+#Let us only try to fulfill the 'if' block for now.
+if alien_color == 'green':
+    print("You earned 5 points!")
+else:
+    print("You earned 10 points!")
+
+#Let us try to satisfy the 'else' block this time.
+#Let us change the variable of 'alien_color' with 'yellow'.
+alien_color = 'yellow'
+
+if alien_color == 'green':
+    print("You earned 5 points!")
+else:
+    print("You earned 10 points!")
+
+#Now that we understand how if-else chains works, we can now transition to if-elif-else chains.
+#Let us assign a points system to the colors of the aliens, with green being the lowest at 5 points
+#and red being the highest at 15 points. The player can manually input the type of color the alien is.
+
+#The if statement checks if the assigned conditon 'green' is true. If so, the player earns 5 points.
+#The elif statement instead evaluates for a different condition 'yellow' and if it is true. If so, the
+#player earns 10 points.
+#Otherwise, the else statement reads that both conditions are false, and assumes that the alien_color's value is red.
+#The player will earn 15 points regardless of what the actual input is. 
+alien_color = input("Please enter the color of the alien (green // yellow // red): ")
+
+if alien_color == 'green':
+    print("You earned 5 points!")
+elif alien_color == 'yellow':
+    print("You earned 10 points!")
+else:
+    print("You earned 15 points!")

@@ -1,0 +1,8 @@
+#Add the variable 'alien_color', and assign the value 'green' to it.
+alien_color = 'green'
+
+#We can use an if statement to check if the variable's assigned value is still 'green'.
+#Using the == operator checks to see if the assigned condition is true.
+#If the statement is true, the player earns points.
+if alien_color == 'green':
+    print("You earned 5 points!")

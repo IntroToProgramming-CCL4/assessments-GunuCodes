@@ -1,0 +1,16 @@
+#Let us list down our favorite fruits inside this variable.
+favoritefruits = ['strawberries', 'bananas', 'oranges']
+
+#We will then write 5 if statements to check whether a certain kind of fruit is in the list.
+#If the specific fruit is in, then the 'if block' is satisfied and a statement will be printed out.
+
+if 'bananas' in favoritefruits:
+    print("You like bananas!")
+if 'apples' in favoritefruits:
+    print("You like apples!")
+if 'oranges' in favoritefruits:
+    print("You like oranges!")
+if 'watermelon' in favoritefruits:
+    print("You like watermelons!")
+if 'peaches' in favoritefruits:
+    print("You like peaches!")
