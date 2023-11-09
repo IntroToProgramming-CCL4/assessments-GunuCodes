@@ -1,0 +1,14 @@
+#Set the variable for the pizza.
+#Print an additional message to inform the user to type 'quit' to stop the loop.
+pizza = "Enter toppings for your pizza:"
+print("Type 'quit' when you are satisfied with your pizza.")
+
+#Make an if-else loop that checks the users input until 'quit' has been entered.
+#Uses the != operation to check whether the set condition is false.
+#If the input ≠ 'quit', then the loop continues. Else, the loop breaks.
+while True:
+    topping = input(pizza)
+    if topping != 'quit':
+        print(topping + " has been added to your pizza.")
+    else:
+        break

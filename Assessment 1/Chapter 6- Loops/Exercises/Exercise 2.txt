@@ -1,0 +1,22 @@
+#Prompts the user for input.
+#Inform the user how to quit the loop by entering 'quit'.
+ticket = "Input your age here: "
+print("Type 'quit' when you are finished purchasing.")
+
+#Infinite loop to gather user input until 'quit' is entered, which breaks the loop.
+while True:
+   
+    age = input(ticket)
+    if age == 'quit':
+        break
+    
+#This converts the input to an integer.
+    age = int(age)
+
+#Determine the ticket category based on the age of the user.
+    if age < 3:
+        print("Availing a baby ticket. No cost will be charged.")
+    elif age < 13:
+        print("Availing a children ticket. Your ticket will cost $10.")
+    else:
+        print("Availing an adult ticket. Your ticket will cost $15.")
