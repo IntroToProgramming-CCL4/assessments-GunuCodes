@@ -1,7 +1,7 @@
 #This will print a sentence describing the city and its country.
 def describe_city(city, country='USA'):
     """Prints a sentence describing the city and its country."""
-    msg = city.title() + " is in " + country.title() + "."
+    msg = city + " is in " + country + "."
     print(msg)
 
 #This will call the function for 3 different cities.
