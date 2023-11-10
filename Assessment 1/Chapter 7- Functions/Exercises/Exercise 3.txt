@@ -1,5 +1,11 @@
-#This is an infinite loop.
-#DDoS Simulator.
-while True:
-    # Print a message indicating that the loop will never end
-    print("I want to get out of Mr. Bones' Wild Ride!")
+#This prints what the size and the message of the shirt.
+def make_shirt(size, message):
+    """Prints a sentence summarizing the size and message of the shirt."""
+    print("The shirt's size will be " + size + ".")
+    print('It will say: "' + message + '"')
+
+#This will call the function with positional arguments.
+make_shirt('large', 'YOLO.')
+
+#This will instead call the function with keyword arguments.
+make_shirt(message="Face your fears.", size='medium')
