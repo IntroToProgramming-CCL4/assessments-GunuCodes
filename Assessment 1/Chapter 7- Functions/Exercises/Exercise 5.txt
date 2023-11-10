@@ -1,24 +1,11 @@
-#Create an empty list to store finished sandwiches
-finished_sandwiches = []
+#This will print a sentence describing the city and its country.
+def describe_city(city, country='USA'):
+    """Prints a sentence describing the city and its country."""
+    msg = city.title() + " is in " + country.title() + "."
+    print(msg)
 
-#Make a separate list of sandwich orders, including 'Pastrami'
-sandwich_orders = ['Turkey Breast', 'Steak and Cheese', 'Italian B.M.T', 'Tuna', 'Pastrami']
-
-#This will remove 'Pastrami' from the sandwich orders if it's present, and inform the customer about it.
-while 'Pastrami' in sandwich_orders:
-    sandwich_orders.remove('Pastrami')
-    print("We're very sorry, but we're all out of pastrami sandwiches today.")
-
-# This will process sandwich orders until the list is empty
-while sandwich_orders:
-    current_sandwich = sandwich_orders.pop()
-    print("Processing one " + current_sandwich + " sandwich.")
-    finished_sandwiches.append(current_sandwich)
-
-# Use an \n for better output formatting.
-print("\n")
-
-# This for loop displays the finished sandwiches.
-for sandwich in finished_sandwiches:
-    print("Your " + sandwich + " sandwich has been finished.")
-
+#This will call the function for 3 different cities.
+#The last one will use the default country.
+describe_city("Manila", "The Philippines")
+describe_city("Tokyo", "Japan")
+describe_city("New York")
