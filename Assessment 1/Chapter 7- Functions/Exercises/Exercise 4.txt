@@ -1,18 +1,15 @@
-#Create an empty list to store finished sandwiches.
-finished_sandwiches = []
+#This prints what the size and the message of the shirt.
+#This function will have the size and the message of the shirt to have a preset size and message..
+def make_shirt(size='large', message='Buy our shirts!'):
+    """Prints a sentence summarizing the size and message of the shirt."""
+    print("The shirt's size will be " + size + ".")
+    print('It will say: "' + message + '"')
 
-#Make a separate list of sandwich orders
-sandwich_orders = ['Turkey Breast', 'Steak and Cheese', 'Italian B.M.T', 'Tuna']
+#This will call the function to make a shirt with the default size and message.
+make_shirt()
 
-#This will process sandwich orders until the list is empty
-while sandwich_orders:
-    current_sandwich = sandwich_orders.pop()
-    print("Processing one " + current_sandwich + " sandwich.")
-    finished_sandwiches.append(current_sandwich)
+#This function will make a medium shirt with the default message.
+make_shirt(size='medium')
 
-#Uses an \n for better output formatting.
-print("\n")
-
-#This for loop displays the finished sandwiches.
-for sandwich in finished_sandwiches:
-    print("Your " + sandwich + " sandwich has been finished.")
+#This function will allow the user to make a shirt of any size with a different message.
+make_shirt('small', 'We are stuck in a time loop.')
