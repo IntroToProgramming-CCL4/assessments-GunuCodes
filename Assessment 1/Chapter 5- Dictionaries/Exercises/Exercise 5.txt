@@ -1,0 +1,16 @@
+#We first make an empty list to store the pets in.
+pets = []
+
+#We then store the pet's information in a dictionary.
+
+pet = {'animal type': 'Dog', 'name': 'Mallow', 'owner': 'Miryam', 'weight': 18, 'eats': 'Meat'}
+pets.append(pet)
+
+pet = {'animal type': 'Cat', 'name': 'Thurston', 'owner': 'John', 'weight': 7,'eats': 'Tuna'}
+pets.append(pet)
+
+#Now, we can loop through the list and print out all the information that was stored.
+for pet in pets:
+    print("\nHere's all the information about " + pet['name'].title() + ":")
+    for key, value in pet.items():
+        print("\t" + key + ": " + str(value))
