@@ -57,7 +57,7 @@ def checkout(basket, total_money):
         
 def smart_suggestion(items_in_stock, basket):
     if basket:
-        item = item_in_stock
+        item = items_in_stock
         
         last_purchase = basket[-1]["item_name"]
         category = basket[-1]["category"]
@@ -72,6 +72,7 @@ def smart_suggestion(items_in_stock, basket):
 
 def run():
     print("\n------- Welcome to the Express Medicine Vending Machine! -------\n\n")
+    categories = {"General Health Products": [], "Antibiotics": [], "Skin Care": []}
     
     items_in_stock = [
         {"item_id": 1, "item_name": "Bandage", "item_price": 2, "stock": 20, "category": "General Health Products"},
@@ -94,7 +95,16 @@ def run():
     basket = []
 
     for i in items_in_stock:
-        print(f"Item ID: {i['item_id']} --- Price: ${i['item_price']} --- Item: {i['item_name']} --- Stock: {i['stock']}")
+        categories[i['category']].append(
+            (f"Item ID: {i['item_id']} --- Price: ${i['item_price']} --- Item: {i['item_name']} --- Stock: {i['stock']}")
+        )
+
+    category_order = ["General Health Products", "Antibiotics", "Skin Care"]
+
+    for category in category_order:
+        print(f"\n{category}:\n")
+        for item in categories[category]:
+            print(item)
 
     run = True
     while run:
